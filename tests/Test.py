@@ -1,7 +1,7 @@
-from Pages import MainPage
-from Pages.MainPage import MainPage
-from Steps import LoginPageSteps
-from Steps.LoginPageSteps import LoginPageSteps
+from pages import MainPage
+from pages.MainPage import MainPage
+from steps import LoginPageSteps
+from steps.LoginPageSteps import LoginPageSteps
 
 
 def test_login(browser):
